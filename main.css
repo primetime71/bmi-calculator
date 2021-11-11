@@ -43,3 +43,10 @@ body{
     width: 80px;
 }
 
+#result{
+
+    margin:5px auto;
+    height: 50%;
+    width: 50%;
+    border: 1px solid green;
+}
