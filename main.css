@@ -23,6 +23,7 @@ input{
     border-radius: 5px;
     text-align: center;
     height: 25px;
+    font-weight: bold;
 
 }
 
@@ -33,7 +34,7 @@ span{
 .calculator{
     height: 80vh;
     width: 30vw;
-    
+    min-height: 620px;
     margin: 50px auto;
     background-color: #9FD356;
     border: 2px solid black;
@@ -131,8 +132,8 @@ span{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        
-}
+
+    }
 #output-display{
     font-size: 48px;
     width: 80%;
