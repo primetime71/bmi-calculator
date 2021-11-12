@@ -81,6 +81,9 @@ span{
     display:block;
     min-width: 75px;
 }
+.btn:hover{
+    cursor: pointer;
+}
 #title{
     font-size: 3rem;
     text-align: center;
