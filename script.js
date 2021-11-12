@@ -1,17 +1,20 @@
-function calcBMI(){
+function calcBMI(){                 //function 1
 
     let weight=document.getElementById("weight").value;
     let height=document.getElementById('height').value;
     const convHeight=(height/100)*(height/100);
     let bmi=weight/convHeight;
-    let finalBMI=bmi.toFixed(2);
-        return setBMI(finalBMI);
+    let finalBMI= bmi.toFixed(2);
+   return finalBMI;
+    // let finalBMI=bmi.toFixed(2);
+    // return alert(finaBMI);
 }
 
-function setBMI(result){
-    const ans=`Your BMI is: ` + result;
-    const opText=document.getElementById("result").innerText=ans;
+function setBMI(){            //function 2
+    const ANS="Your BMI is: " + calcBMI();
+    const OPTEXT=document.getElementById("result").innerHTML=ANS;
 }
+
 
 
 

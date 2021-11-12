@@ -14,18 +14,18 @@
         <h1 id="title">BMI-Calculator</h1>
         <div class="input-section">
             <div class="boxes">
-        <label for="weight">Enter Weight (kilograms):</label>
+        <label for="weight">Enter Weight: <span>(kilograms)</span></label>
         <input type="text" required id="weight" >
     </div>
     <div class="boxes">
-        <label for="height">Enter Height (centimeters):</label>
+        <label for="height">Enter Height: <span>(centimeters)</span></label>
         <input type="text" required id="height">
     </div>
     
         <button id="btn" type="submit" onclick="calcBMI(),setBMI()">Calculate</button>
     
     </div>
-    <div id="result"></div>
+    <div id="output-display"><p id="result"></p></div>
     </main>
     
 </body>
