@@ -21,8 +21,10 @@
         <label for="height">Enter Height: <span>(centimeters)</span></label>
         <input type="text" required id="height">
     </div>
-    
-        <button id="btn" type="submit" onclick="calcBMI(),setBMI()">Calculate</button>
+    <div id="btn-div">
+        <button class="btn" type="submit" onclick="calcBMI(),setBMI()">Calculate</button>
+        <button class="btn" style="background-color:#d32a1b;" type="submit" onclick="clearFields()">Clear</button>
+    </div>  
     
     </div>
     <div id="output-display"><p id="result"></p></div>

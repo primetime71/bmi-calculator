@@ -67,7 +67,7 @@ span{
  
 }
 
-#btn{
+.btn{
     height: 30px;
     width: 100px;
     background-color: #3C91E6;
@@ -78,8 +78,10 @@ span{
     border-radius: 5px;
     margin-top: 5px;
     position: relative;
-    bottom:5%
+    bottom:5%;
+    display:block;
 }
+
 
 #output-display{
 
@@ -92,6 +94,13 @@ span{
     letter-spacing: 10px;
     position: relative;
     
+}
+#btn-div{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 #result{
     position: absolute;
