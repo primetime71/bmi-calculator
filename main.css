@@ -12,7 +12,7 @@ body{
     background-color: #FAFFFD;
     color:black;
     font-family: 'Bangers', cursive;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 5px;
     font-weight: 100;
 }
@@ -31,6 +31,7 @@ span{
 .calculator{
     height: 80vh;
     width: 30vw;
+    
     margin: 50px auto;
     background-color: #9FD356;
     border: 2px solid black;
@@ -60,12 +61,7 @@ span{
     margin-top: 5px;
     /* outline: 1px solid red; */
 }
-#title{
-    text-align: center;
-    margin-top: 30px;
-    text-decoration: underline;
- 
-}
+
 
 .btn{
     height: 30px;
@@ -80,6 +76,14 @@ span{
     position: relative;
     bottom:5%;
     display:block;
+    min-width: 75px;
+}
+#title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+ 
 }
 
 
@@ -108,4 +112,20 @@ span{
     left:50%;
     transform: translate(-50%,-50%);
     width: 100%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1260px){
+
+    .calculator{
+        min-width: 300px;
+    }
+    
+    .boxes{
+        padding: 5px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+}
 }
